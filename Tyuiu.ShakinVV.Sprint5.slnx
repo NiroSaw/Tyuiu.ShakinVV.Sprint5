@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Task0/">
+    <Project Path="Tyuiu.ShakinVV.Sprint5.Task0.V8.Lib/Tyuiu.ShakinVV.Sprint5.Task0.V8.Lib.csproj" />
+    <Project Path="Tyuiu.ShakinVV.Sprint5.Task0.V8.Test/Tyuiu.ShakinVV.Sprint5.Task0.V8.Test.csproj" />
+    <Project Path="Tyuiu.ShakinVV.Sprint5.Task0.V8/Tyuiu.ShakinVV.Sprint5.Task0.V8.csproj" />
+  </Folder>
+  <Project Path="ForTest/ForTest.csproj" />
+</Solution>
