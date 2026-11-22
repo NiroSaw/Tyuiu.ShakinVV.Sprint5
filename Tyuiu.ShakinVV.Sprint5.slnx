@@ -4,5 +4,10 @@
     <Project Path="Tyuiu.ShakinVV.Sprint5.Task0.V8.Test/Tyuiu.ShakinVV.Sprint5.Task0.V8.Test.csproj" />
     <Project Path="Tyuiu.ShakinVV.Sprint5.Task0.V8/Tyuiu.ShakinVV.Sprint5.Task0.V8.csproj" />
   </Folder>
+  <Folder Name="/Task1/">
+    <Project Path="Tyuiu.ShakinVV.Sprint5.Task1.V13.Lib/Tyuiu.ShakinVV.Sprint5.Task1.V13.Lib.csproj" Id="d7a209e3-bc5c-45ae-90bb-63b8dbbe4108" />
+    <Project Path="Tyuiu.ShakinVV.Sprint5.Task1.V13.Test/Tyuiu.ShakinVV.Sprint5.Task1.V13.Test.csproj" Id="baac9e14-6805-49c2-b788-0050f1bda707" />
+    <Project Path="Tyuiu.ShakinVV.Sprint5.Task1.V13/Tyuiu.ShakinVV.Sprint5.Task1.V13.csproj" />
+  </Folder>
   <Project Path="ForTest/ForTest.csproj" />
 </Solution>
