@@ -1,15 +1,24 @@
-﻿namespace ForTest
+﻿using System.IO;
+using System.Text;
+
+namespace ForTest
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string outputFile = "OutPutFileTask0.txt";
-            double x2 = -1;
-            double result2 = 2 * Math.Pow(x2, 3) + 5 * Math.Pow(x2, 2) - 3 * x2 + 1;
-            File.AppendAllText(outputFile, result2.ToString());
+            string content = File.ReadAllText(@"C:\DataSprint5\InPutDataFileTask4V0.txt");
+            string newContent = "";
+            foreach (char c in content)
+            {
+                if (!char.IsUpper(c))
+                {
+                    newContent += c;
+                }
+            }
+            File.WriteAllText(@"C:\DataSprint5\InPutDataFileTask4V0.txt", newContent);
+            Console.WriteLine(String.Join("\n", newContent));
             Console.ReadKey();
-
         }
     }
 }
